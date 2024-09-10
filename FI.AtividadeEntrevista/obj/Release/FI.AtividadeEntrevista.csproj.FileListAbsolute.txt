@@ -1,0 +1,2 @@
+C:\FI.WebAtividadeEntrevista\FI.AtividadeEntrevista\obj\Release\FI.AtividadeEntrevista.csproj.AssemblyReference.cache
+C:\FI.WebAtividadeEntrevista\FI.AtividadeEntrevista\obj\Release\FI.AtividadeEntrevista.csproj.CoreCompileInputs.cache

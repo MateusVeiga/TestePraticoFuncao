@@ -1,0 +1,46 @@
+    <div id="beneficiarioModal" class="modal fade d-inline-flex" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" style="display: inline-block;">Benefici�rios</h5>
+                    <button type="button" class="close pull-right" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="formBeneficiario">
+                        <input type="hidden" id="IdBeneficiario" name="IdBeneficiario" />
+                        <div class="row align-items-end" style="gap: 10px;">
+                            <div class="col-md-4" style="padding-right: 10px;">
+                                <label for="novoCPF"><strong>CPF:</strong></label>
+                                <input type="text" id="novoCPF" class="form-control" placeholder="Ex.: 010.011.111-00">
+                            </div>
+                            <div class="col-md-5" style="padding: 0px;">
+                                <label for="novoNome"><strong>Nome:</strong></label>
+                                <input type="text" id="novoNome" class="form-control" placeholder="Ex.: Maria">
+                            </div>
+                            <div class="col-md-2">
+                                <div class="invisible"><label>&nbsp;</label></div>
+                                <button type="button" class="btn btn-success" id="salvarBeneficiario" style="font-weight: bold;">Incluir</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <table class="table" id="beneficiariosTabela" style="margin-top: 20px;">
+                        <thead>
+                            <tr>
+                                <th>CPF</th>
+                                <th>Nome</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
